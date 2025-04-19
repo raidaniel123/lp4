@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riot games</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      /* Adicionado para alinhar os elementos verticalmente */
+      font-size: 16px;
+      background-color: rgb(0, 0, 0);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+      height: 100vh;
+    }
+
+    .header {
+
+      width: 100%;
+      height: 90px;
+      background-color: rgb(255, 0, 45);
+      color: whitesmoke;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 30px;
+      position: fixed;
+      z-index: 1;
+    }
+
+    .logo {
+      flex-shrink: 0;
+      /* Evita que a logo encolha */
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .logo a {
+      color: whitesmoke;
+      text-decoration: none;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+    .logo a:hover {
+      color: rgb(216, 78, 103);
+    }
+
+    .header-menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 35px;
+    }
+
+    .header-menu a {
+      color: whitesmoke;
+      text-decoration: none;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    .header-menu a:hover {
+      color: rgb(216, 78, 103);
+    }
+    .text {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column; /* Adicionado para alinhar os elementos verticalmente */
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    text-align: justify;
+
+  }
+
+    .text h1 {
+      margin-bottom: 40px; /* Espaçamento entre o título e o parágrafo */
+    }
+
+    .text p {
+      font-size: 18px; /* Tamanho da fonte do parágrafo */
+      line-height: 1.5; /* Espaçamento entre linhas */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo">  <a href="home">Riot Games</a>
+    </div>
+    <div class="header-menu">
+      <a href="sobre">sobre</a>
+      <a href="contatos">contatos</a>
+      <a href="jogos">jogos</a>
+      <a href="socio">se torne um sócio</a>
+      <a href="Localizacao">Localização</a>
+    </div>
+  </div>
+  <div class="text">
+    <h1>Venha conhecer nossa sede!</h1>
+    <p>
+        Nossa sede está localizada em Los Angeles, Califórnia, mas nossos estúdios e servidores estão espalhados por
+      diversos continentes, levando uma experiência estável e global para milhões de jogadores. Confira onde estamos
+      presentes e descubra mais sobre nossos hubs ao redor do mundo.
+    </p>
+  </div>
+</body>
+
+</html>
